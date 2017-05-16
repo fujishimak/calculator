@@ -9,34 +9,62 @@ body {
 	height: auto;
 	margin: auto;
 	padding-top: 50px;
+
+}
+
+#banner {
+	text-align: center;
+	padding-top: 10px;
 }
 
 #calc-elements {
 
-	background-color: #EFC373;
+	/*background-color: #EFC373;*/
 	width: auto;
 	padding-bottom: 10px;
+	border-radius: 10px;
+	font-family: 'Orbitron', sans-serif;
 
+	background: rgba(241,231,103,1);
+	background: -moz-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(241,231,103,1)), color-stop(100%, rgba(254,182,69,1)));
+	background: -webkit-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+	background: -o-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+	background: -ms-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+	background: linear-gradient(to bottom, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=0 );
 }
 
 #output {
 
 	margin:auto;
 	width: 250px;
+	height: auto;
 	background-color: white;
+	text-align: right;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 0px 5px 0px 5px;
 
+}
+
+#output-main {
+
+	font-size: 32px;
 }
 
 .col-md-3 {
 
 	padding-top: 5px;
 	padding-bottom: 5px;
+
 	
 }
 
 button {
-	width: 35px;
+	width: 45px;
 	height: 35px;
 	text-align: center;
+
 }
 
